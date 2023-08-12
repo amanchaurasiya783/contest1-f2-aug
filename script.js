@@ -24,7 +24,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here, just console.log
-  let arr = arr.filter(value =>{
+  arr = arr.filter(value =>{
     return value.profession !== 'admin';
   });
   console.log(arr);
